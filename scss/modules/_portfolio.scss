@@ -1,0 +1,47 @@
+.portfolio {
+  display: flex;
+  gap: 4rem;
+  flex-wrap: wrap;
+
+  &__box {
+    flex-basis: calc(50% - 4rem);
+    background-color: var(--color-lighter);
+    padding: 2rem;
+    border-radius: 0.7rem;
+
+    @include media-queries(atMediumLarge) {
+      flex-basis: 100%;
+    }
+  }
+
+  &__img {
+    border-radius: 0.7rem;
+  }
+
+  &__title {
+    font-size: 2.4rem;
+    margin: 1rem 0;
+    color: var(--color-main);
+
+    @include media-queries(atMedium) {
+      font-size: 2rem;
+    }
+  }
+
+  &__content {
+    margin-bottom: 1rem;
+  }
+
+  &__link {
+    font-size: 1.6rem;
+    font-weight: var(--font-semi-bold);
+    color: var(--color-accent);
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+      border-color: var(--color-accent);
+    }
+  }
+}

@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Osama Ahmed's Portfolio</title>
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon" />
+    
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap Icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css"
+    />
+    <!-- Animate CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <!-- SplideJs Styles -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.2.1/dist/css/splide.min.css"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- App Styles -->
+    <link rel="stylesheet" href="styles/app.css" />
+  </head>
+  <body onload="myFunction()">
+
+    <div id="preloader">
+      <div class="spinner">
+        <div></div>   
+        <div></div>    
+        <div></div>    
+        <div></div>    
+      </div>
+    </div>
+   
+
+    
+    <header class="header">
+      <div class="animate__animated animate__slideInDown">
+        <div class="container">
+          <h1 class="header__logo">
+            <a href="/">
+              <span>👋</span>
+              Osama Ahmed
+            </a>
+          </h1>
+          <nav class="navigation">
+            <ul>
+              <li><a href="#portfolio">Portfolio</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+            <a class="btn btn--main" href="assets/Osama Ahmed_Resume.pdf" download
+              ><i class="bi bi-download"></i> Resume</a
+            >
+          </nav>
+          <button id="navigation-button">
+            <i class="bi bi-list"></i>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero__wrapper">
+          <h1 class="hero__title animate__animated animate__slideInUp">
+            Frontend Developer
+          </h1>
+          <p class="hero__content animate__animated animate__slideInUp">
+            Result-oriented and motivated individual with a Bachelor’s Degree in Computer Science. Demonstrated capacity for quick
+            learning in a dynamic atmosphere. Excellent teamwork abilities and willingness to contribute to organizational success.
+            Seeking professional development opportunities.
+          </p>
+          <ul class="social animate__animated animate__slideInLeft">
+            <li>
+              <a href="https://www.linkedin.com/in/osama-ahmed-66b6b8215/" target="_blank"><i class="bi bi-linkedin"></i></a>
+            </li>
+            <li>
+              <a href="https://github.com/Osama472" target="_blank"><i class="bi bi-github"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="bi bi-twitter"></i></a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/osama.ahmed.1426" target="_blank"><i class="bi bi-facebook"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="section animate__animated animate__slideInUp" id="portfolio">
+      <div class="container">
+        <div class="section__header section__header--center">
+          <h2 class="section__title">Portfolio</h2>
+          <p class="section__subtitle">See my latest work</p>
+        </div>
+        <div class="portfolio">
+          <div class="portfolio__box">
+            <img class="portfolio__img" src="assets/Huddle Landing Page.jpg" alt="Portfolio Items" />
+            <h3 class="portfolio__title">Huddle Landing Page</h3>
+            <a class="portfolio__link" href="https://osama472.github.io/HuddleLandingPage/" target="_blank">See Work <i
+                class="bi bi-arrow-right"></i></a>
+          </div>
+          <div class="portfolio__box">
+            <img class="portfolio__img" src="assets/QR code component.jpg" alt="Portfolio Items" />
+            <h3 class="portfolio__title">QR code component</h3>
+            <a class="portfolio__link" href="https://osama472.github.io/qrCode/" target="_blank">See Work <i
+                class="bi bi-arrow-right"></i></a>
+          </div>
+          <div class="portfolio__box">
+            <img class="portfolio__img" src="assets/Product Landing Page.png" alt="Portfolio Items" />
+            <h3 class="portfolio__title">Product Landing Page</h3>
+            <a class="portfolio__link" href="https://osama472.github.io/ProductLandingPage/" target="_blank">See Work <i
+                class="bi bi-arrow-right"></i></a>
+          </div>
+          <div class="portfolio__box">
+            <img class="portfolio__img" src="assets/Responsive Website Design.png" alt="Portfolio Items" />
+            <h3 class="portfolio__title">Responsive Website Design</h3>
+            <a class="portfolio__link" href="https://osama472.github.io/PracticeWebDesign/" target="_blank">See Work <i
+                class="bi bi-arrow-right"></i></a>
+          </div>
+          <div class="portfolio__box">
+            <img class="portfolio__img" src="assets/JavaScript Calculator.png" alt="Portfolio Items" />
+            <h3 class="portfolio__title">JavaScript Calculator</h3>
+            <a class="portfolio__link" href="https://osama472.github.io/Js-Assignment_Cal/" target="_blank">See Work <i
+                class="bi bi-arrow-right"></i></a>
+          </div>
+          <div class="portfolio__box">
+            <img class="portfolio__img" src="assets/Todo's List App.png" alt="Portfolio Items" />
+            <h3 class="portfolio__title">Todo's List App</h3>
+            <a class="portfolio__link" href="https://osama472.github.io/TodoList/" target="_blank">See Work <i
+                class="bi bi-arrow-right"></i></a>
+          </div>
+        </div>
+        <div class="section__footer">
+          <a href="#contact">
+            Ask for More Projects
+            <i class="bi bi-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="about">
+          <div class="about__left">
+            <div class="section__header">
+              <h2 class="section__title">About</h2>
+              <p class="section__subtitle">Few things about me</p>
+            </div>
+            <p class="about__bio">
+              Result-oriented and motivated individual with a Bachelor's Degree in Computer Science from Sir Syed University of
+              Engineering & Technology (SSUET). Have demonstrated a capacity for quick learning in a dynamic atmosphere and excellent
+              teamwork abilities. I am eager to contribute my skills and knowledge to a successful organization and am always looking
+              for professional development opportunities.
+            </p>
+            <h4 class="about__skillsTitle">Skills</h4>
+            <ul class="about__skillsList">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>Bootstrap</li>
+              <li>Reactjs</li>
+              <li>REST API</li>
+              <li>WordPress</li>
+              <li>C+</li>
+              <li>OOP</li>
+              <li>SQL</li>
+              <li>Adobe Photoshop</li>
+              <li>SAP</li>
+              <li>SAP MM</li>
+              <li>MS Office</li>
+            </ul>
+          </div>
+          <div class="about__right">
+            <img src="assets/profile.jpg" alt="Profile Picture" v />
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Contact Section -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="contact">
+          <div class="contact__left">
+            <div class="section__header">
+              <h2 class="section__title">Contact Me</h2>
+              <p class="section__subtitle">Reach out to me, 24/7</p>
+            </div>
+            <div class="contact__info">
+              <p>Email Me:</p>
+              <a href="mailto:">osamaahmed1998@outlook.com</a>
+            </div>
+
+            <div class="contact__info">
+              <p>Call Me:</p>
+              <a href="tel:">+92 344 1334766</a>
+            </div>
+
+            <div class="contact__info">
+              <p>Follow Me:</p>
+              <ul class="social">
+                <li>
+                  <a href="https://www.linkedin.com/in/osama-ahmed-66b6b8215/" target="_blank"><i class="bi bi-linkedin"></i></a>
+                </li>
+                <li>
+                  <a href="https://github.com/Osama472" target="_blank"><i class="bi bi-github"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="bi bi-twitter"></i></a>
+                </li>
+                <li>
+                  <a href="https://www.facebook.com/osama.ahmed.1426" target="_blank"><i class="bi bi-facebook"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="contact__right">
+            <form class="contact__form" action="https://formspree.io/f/mleykkbp" method="POST">
+              <div class="contact__fields">
+                <label for="name">Name</label>
+                <input type="name" name="name" id="name" autocomplete="off" required placeholder="Your Name" class="contact-name" onkeyup="validateName()"/>
+                <span id="name-error"></span>
+              </div>
+              <div class="contact__fields">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" autocomplete="off" required placeholder="Email Address" class="contact-email" onkeyup="validateEmail()"/>
+                <span id="email-error"></span>
+              </div>
+              <div class="contact__fields">
+                <label for="subject">Email</label>
+                <input type="subject" name="subject" id="subject" autocomplete="off" required placeholder="Subject" class="contact-email" onkeyup="validateEmail()"/>
+                <span id="email-error"></span>
+              </div>
+              <div class="contact__fields">
+                <label for="message">Message</label>
+                <textarea name="message" autocomplete="off" id="message" required placeholder="Write Message..."></textarea>
+                <span id="message-error"></span>
+              </div>
+              <div class="contact__fields">
+                <button class="btn btn--accent" type="submit">
+                  Send Message<i class="bi bi-arrow-right"></i>
+                </button>
+                <span id="submit-error"></span>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer__copyright">
+        <p>Made with &hearts; by Osama Ahmed</p>
+      </div>
+    </footer>
+
+    <!-- SplideJs v3 -->
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.2.1/dist/js/splide.min.js"></script>
+    <!-- Scroll Reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- App Scripts -->
+    <script src="scripts/app.js"></script>
+    <!-- Animated Icon Scripts -->
+    <script src="https://cdn.lordicon.com/lordicon-1.1.0.js"></script>
+    <!-- Form Validation Script -->
+    <script src="scripts/formvalidation.js"></script>
+    <!-- Pre Loader Script -->
+    <script src="scripts/preloader.js"></script>
+  
+    
+  </body>
+</html>
